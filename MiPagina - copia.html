@@ -3,24 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Página HTML de ejemplo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @media (max-width: 768px) {
-            .info-card {
-                width: 90% !important;
-                margin: 30px auto !important;
-            }
-        }
-    </style>
 </head>
 <body>
-    <audio id="tralaleroAudio" src="tralarero.mp3"></audio>
-    <audio id="fruli" src="fruli.mp3"></audio>
     <h1>informacion de los italian brainrots</h1>
     <p>(hecho por jorge cabot.)</p>
     <p></p>
 
-    <table class="info-card" style="
+    <table style="
         margin: 30px 0 30px 30px;
         border-collapse: separate;
         border-spacing: 0;
@@ -31,10 +20,8 @@
         overflow: hidden;
     ">
         <tr>
-            <td style="padding: 24px; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">                
-                <a href="#" onclick="playAudio('fruli'); return false;">
-                    <img src="images.jfif" alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
-                </a>
+            <td style="padding: 24px; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">
+                <img src="images.jfif" alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
             </td>
         </tr>
         <tr>
@@ -43,7 +30,7 @@
             </td>
         </tr>
     </table>
-    <table class="info-card" style="
+    <table style="
         margin: 30px 0 30px 30px;
         border-collapse: separate;
         border-spacing: 0;
@@ -55,9 +42,7 @@
     ">
         <tr>
             <td style="padding: 24px; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">
-                <a href="#" onclick="playAudio('tralaleroAudio'); return false;">
-                    <img src="tralalero-tralala.jpg" alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb; cursor: pointer;">
-                </a>
+                <img src="tralalero-tralala.jpg" alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
             </td>
         </tr>
         <tr>
@@ -66,7 +51,7 @@
             </td>
         </tr>
     </table>
-    <table class="info-card" style="
+    <table style="
         margin: 30px 0 30px 30px;
         border-collapse: separate;
         border-spacing: 0;
@@ -87,7 +72,7 @@
             </td>
         </tr>
     </table>
-    <table class="info-card" style="
+    <table style="
         margin: 30px 0 30px 30px;
         border-collapse: separate;
         border-spacing: 0;
@@ -108,7 +93,7 @@
             </td>
         </tr>
     </table>
-    <table class="info-card" style="
+    <table style="
     margin: 30px 0 30px 30px;
     border-collapse: separate;
     border-spacing: 0;
@@ -129,7 +114,7 @@
         </td>
     </tr>
 </table>
-<table class="info-card" style="
+<table style="
 margin: 30px 0 30px 30px;
 border-collapse: separate;
 border-spacing: 0;
@@ -152,14 +137,7 @@ overflow: hidden;
 </table>
 
     
-    <script>
-        function playAudio(audioId) {
-            var audio = document.getElementById(audioId);
-            if (audio) {
-                audio.play();
-            }
-        }
-    </script>
+
    
 
 </body>
