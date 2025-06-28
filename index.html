@@ -16,6 +16,10 @@
 <body>
     <audio id="tralaleroAudio" src="tralarero.mp3"></audio>
     <audio id="fruli" src="fruli.mp3"></audio>
+    <audio id="bombar" src="bombar.mp3"></audio>
+    <audio id="patapim" src="patapim.mp3"></audio>
+    <audio id="tung" src="tung.mp3"></audio>
+    <audio id="bombini" src="bombini.mp3"></audio>
     <h1>informacion de los italian brainrots</h1>
     <p>(hecho por jorge cabot.)</p>
     <p></p>
@@ -77,8 +81,10 @@
         overflow: hidden;
     ">
         <tr>
-            <td style="padding: 24px"; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">
-                <img src="crocodilo.jfif"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+            <td style="padding: 24px"; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">                
+                <a href="#" onclick="playAudio('bombar'); return false;">
+                    <img src="crocodilo.jfif"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+                </a>
             </td>
         </tr>
         <tr>
@@ -99,7 +105,9 @@
     ">
         <tr>
             <td style="padding: 24px"; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">
-                <img src="brr-brr-patapim.jpg"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+                <a href="#" onclick="playAudio('patapim'); return false;">
+                    <img src="brr-brr-patapim.jpg"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+                </a>
             </td>
         </tr>
         <tr>
@@ -120,7 +128,9 @@
 ">
     <tr>
         <td style="padding: 24px"; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">
-            <img src="sahur.jpg"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+            <a href="#" onclick="playAudio('tung'); return false;">
+                <img src="sahur.jpg"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+            </a>
         </td>
     </tr>
     <tr>
@@ -141,7 +151,9 @@ overflow: hidden;
 ">
 <tr>
     <td style="padding: 24px"; text-align: center; background: #f8fbff; border-bottom: 1px solid #dde3ea;">
-        <img src="gusini.webp"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+        <a href="#" onclick="playAudio('bombini'); return false;">
+            <img src="gusini.webp"  alt="Imagen adicional" style="max-width:320px; height:auto; border-radius: 12px; box-shadow: 0 2px 8px #bbb;">
+        </a>
     </td>
 </tr>
 <tr>
@@ -159,6 +171,12 @@ overflow: hidden;
                 audio.play();
             }
         }
+
+        
+        function saludo(dato) {
+            alert("hola " + dato);
+        }
+        
     </script>
    
 
